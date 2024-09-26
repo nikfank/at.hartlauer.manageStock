@@ -1,0 +1,4 @@
+/node_modules/
+AppVariant*.html
+*.zip
+dist

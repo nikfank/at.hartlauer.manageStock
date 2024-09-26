@@ -1,0 +1,34 @@
+{
+  "fileName": "manifest",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "appdescr_variant",
+  "reference": "ui.s2p.mm.manage.stock",
+  "id": "customer.hartlauer.at.zmanagestock",
+  "namespace": "apps/ui.s2p.mm.manage.stock/appVariants/customer.hartlauer.at.zmanagestock/",
+  "content": [
+    {
+      "changeType": "appdescr_app_setTitle",
+      "content": {},
+      "texts": {
+        "i18n": "i18n/i18n.properties"
+      }
+    },
+    {
+      "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+      "content": {
+        "modelId": "i18n",
+        "bundleUrl": "i18n/i18n.properties",
+        "supportedLocales": [
+          ""
+        ],
+        "fallbackLocale": ""
+      }
+    },
+    {
+      "changeType": "appdescr_ui5_setMinUI5Version",
+      "content": {
+        "minUI5Version": "1.108.25"
+      }
+    }
+  ]
+}

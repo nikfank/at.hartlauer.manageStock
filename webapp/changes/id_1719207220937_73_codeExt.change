@@ -1,0 +1,23 @@
+{
+	"changeType": "codeExt",
+	"reference": "customer.hartlauer.at.zmanagestock",
+	"namespace": "apps/customer.hartlauer.at.zmanagestock/changes/",
+	"projectId": "customer.hartlauer.at.zmanagestock",
+	"moduleName": "customer/hartlauer/at/zmanagestock/changes/coding/zmanageStockExt",
+	"support": {
+		"generator": "rta.service.ControllerExtension",
+		"sapui5Version": "1.108.22"
+	},
+	"originalLanguage": "DE",
+	"layer": "CUSTOMER_BASE",
+	"fileType": "change",
+	"fileName": "id_1719207220937_73_codeExt",
+	"content": {
+		"codeRef": "coding/zmanageStockExt.js"
+	},
+	"texts": {},
+	"selector": {
+		"controllerName": "ui.s2p.mm.manage.stock.controller.S1"
+	},
+	"creation": "2024-06-24T05:33:41.012Z"
+}

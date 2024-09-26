@@ -1,0 +1,18 @@
+{
+	"name": "zmanagestock",
+	"version": "0.0.1", 
+	"keywords": [
+		"ui5",
+		"sapui5",
+		"adaptation-project"
+	],
+	"devDependencies": {
+		"@sap/ux-ui5-tooling": "^1.11.4",
+		"@ui5/cli": "^3.6.0"
+	},
+	"scripts": {
+		"build": "ui5 build --exclude-task generateFlexChangesBundle generateComponentPreload --clean-dest",
+		"start": "fiori run --open /test/flp.html#app-preview",
+		"start-editor": "fiori run --open /test/adaptation-editor.html"
+	}
+}

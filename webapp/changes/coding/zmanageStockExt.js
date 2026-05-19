@@ -105,9 +105,12 @@ sap.ui.define([
 				SerialNumbersVisible: false,
 				SerialNumbersMandatory: false,
 				SerialNumbersKeepLeadingZeros: false,
+				SerialNumbers: [],
+				SerialNumbersAutoCreate: false,
 				SerialNumbers_placeholder: "",
 				OptSerialNumbersInfoMessageVisible: false,
-				OptSerialNumbersInfoMessageText: ""
+				OptSerialNumbersInfoMessageText: "",
+				SerialNumbersHardProcessingLimit: SerialNumbersController.getSerNumsHardProcessingLimit()
 			};
 			var oItem;
 			// Standard Stock

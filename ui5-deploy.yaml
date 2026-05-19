@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://sap.github.io/ui5-tooling/schema/ui5.yaml.json
+ 
+specVersion: "3.1"
+metadata:
+  name: zmanagestock
+type: application
+builder:
+  resources:
+    excludes:
+      - /test/**
+      - /localService/**
+  customTasks:
+    - name: deploy-to-abap
+      afterTask: generateCachebusterInfo
+      configuration:
+        target:
+          target:
+          destination: HSD_CLNT013
+          url: http://hart-hsd.virtual:44300
+          client: '013'
+          scp: true
+        app:
+          description: HFB - Bestand verwalten
+          package: ZMM
+          transport: HSDK919826
+        exclude:
+          - /test/
